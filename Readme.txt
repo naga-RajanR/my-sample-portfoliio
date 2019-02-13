@@ -1,1 +1,0 @@
-*Naga sample portfolio
