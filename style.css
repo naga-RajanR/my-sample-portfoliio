@@ -21,11 +21,12 @@ body{
 	justify-content: center;
 	}
 header{
-	background-color: #35424a;
+	background-color:white;
 	padding-top: 20px;
-	border-bottom: orangered 2px solid;
+	/*border-bottom: orangered 2px solid;*/
 	min-height: 70px;
-	color: white;
+	color:  #35424a;
+	display: none;
 }
 header .header h1{
 	font-size: 36px;
@@ -33,6 +34,7 @@ header .header h1{
     margin: 0;
 	padding-top: 20px;
 
+    
 }
 
 
@@ -58,13 +60,16 @@ header .highlight{
 	
 
 #showcase{
-	background:url('images/code.jpg') no-repeat -200px -300px ; 
+	background:url('images/bg.jpeg') no-repeat ; 
 	min-height: 350px;
 	text-align: center;
 	color: white;
 	opacity: 0.8;
+	/*margin-top: 30px;*/
 	padding-top: 60px;
-    border-bottom: solid 1px red;
+	background-attachment: fixed;
+	background-size: cover;
+    /*border-bottom: solid 1px red;*/
 }
 
 section h1{
@@ -84,20 +89,54 @@ section p{
 
 section #foto{
 	
-	margin-top: 30px;
-	
-    height: 160px;
+/*	margin-top: 30px;*/
+	height: 160px;
     border-radius: 50%;
+    position: relative;
+    animation-name: foto;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes foto{
+	0% {left:-620px;}
+	100%{left: 0px;}
+}
+#maincontent {
+	background:url('./images/bg.jpeg') no-repeat ;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px; 
+	color: white;
+	width: 100%;
+	opacity: 0.8;
+}
+.space{
+	background:url('./images/img.jpg') no-repeat ;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px; 
+	color: white;
+	width: 100%;
 }
 #maincontent h1{
-	color: #35424a;
+	color: red;
 	text-transform: uppercase;
 	text-decoration: underline;
 	margin-top: 10px;
 	margin-bottom: 5px;
 	font-size: 36px;
 	text-align: center;
+	position: relative;
+	animation-name: name;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
 }
+@keyframes name{
+	0% {right:-600px;}
+	100%{right: 0px;}
+}
+
 #maincontent p{
 	margin-left: 30px;
     margin-top: 4px;
