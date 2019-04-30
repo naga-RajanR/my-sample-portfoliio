@@ -304,11 +304,11 @@ footer a:hover{
     	text-align: center;
         align-items: center;
 		width: 100%;
-		background: url(./images/sec1.jpg) no-repeat;
+		/* background: url(./images/sec1.jpg) no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
 		color: #f4f4f4;
-		padding-top:20px;
+		padding-top:20px; */
 		}
 
     #boxes h1{
@@ -322,11 +322,11 @@ footer a:hover{
     	text-align: center;
         align-items: center;
 		width: 100%;
-		background: url(./images/bg2.png) no-repeat;
+		/* background: url(./images/bg2.png) no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
 		color: #f4f4f4;
-		padding-top:20px;
+		padding-top:20px; */
 		
     }
    
