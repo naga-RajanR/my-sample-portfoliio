@@ -84,6 +84,15 @@ header .highlight{
 	display: flex;
     /*border-bottom: solid 1px red;*/
 }
+#showcase .container{
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+}
+@keyframes fade{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
 
 section h1{
 	font-size: 60px;
@@ -171,7 +180,7 @@ section #foto{
 #boxes{
 	margin-top: 10px;
 	text-transform: uppercase;
-    
+    cursor: pointer;
 }
 #boxes .box {
 	float: left;
@@ -209,6 +218,7 @@ section #foto{
 #boxes1{
 	margin-top: 10px;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 #boxes1 .box1 {
     float: left;
