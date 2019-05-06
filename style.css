@@ -162,12 +162,33 @@ section #foto{
 	100%{opacity: 1;}
 }
 
-#maincontent p{
-	margin-left: 30px;
+#maincontent p, .working_areas p{
+	margin:0px 30px;
     margin-top: 4px;
 	text-align: center;
 	margin-bottom: 5px;
 	font-size: 22px;
+
+}
+.working_areas{
+	min-height: 400px;
+	background: url(./images/bg1.jpg) no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-size: cover;  
+	  padding-top: 20px;
+	clip-path: polygon(0 20%, 100% 0,100% 100%,0 100%);
+	/* opacity: 0.6; */
+}	
+.working_areas h1{
+	color:white;
+	margin-bottom: 20px;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
 
 }
 #boxes h1{
